@@ -51,19 +51,19 @@ p5 {
 
 @font-face {
     font-family: 'Gmarket';
-    src: url(/font/GmarketSansTTFBold.ttf);
+    src: url(./font/GmarketSansTTFBold.ttf);
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Gmarket';
-    src: url(/font/GmarketSansTTFMedium.ttf);
+    src: url(./font/GmarketSansTTFMedium.ttf);
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Gmarket';
-    src: url(/font/GmarketSansTTFLight.ttf);
+    src: url(./font/GmarketSansTTFLight.ttf);
     font-weight: 300;
 }
 
@@ -89,7 +89,7 @@ container {
 #header {
     width: 100vw;
     height: 100vh;
-    background-image: url(/img/상어먹이.png);
+    background-image: url(./img/상어먹이.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -117,7 +117,7 @@ container {
 }
 
 .logo {
-    background-image: url(/img/로고.png);
+    background-image: url(./img/로고.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
