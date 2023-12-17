@@ -194,7 +194,7 @@ container {
     padding: 0px calc(50vw - 500px);
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
     border: solid 1px var(--border-color);
 }
