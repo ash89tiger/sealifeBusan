@@ -63,7 +63,7 @@ p5 {
 
 @font-face {
     font-family: 'Gmarket';
-    src: url(/font/GmarketSansTTFLight.ttf);
+    src: url(./font/GmarketSansTTFLight.ttf);
     font-weight: 300;
 }
 
@@ -116,7 +116,7 @@ container {
 #header {
     width: 100vw;
     height: 100vh;
-    background-image: url(/img/해파리연구소.jpeg);
+    background-image: url(./img/해파리연구소.jpeg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -144,7 +144,7 @@ container {
 }
 
 .logo {
-    background-image: url(/img/로고.png);
+    background-image: url(./img/로고.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -278,19 +278,19 @@ button:nth-child(1) {
 }
 
 #show .item:nth-child(1) {
-    background-image: url(/img/상어먹이.png);
+    background-image: url(./img/상어먹이.png);
 }
 
 #show .item:nth-child(2) {
-    background-image: url(/img/인어공주.png);
+    background-image: url(./img/인어공주.png);
 }
 
 #show .item:nth-child(3) {
-    background-image: url(/img/펭귄먹이2.png);
+    background-image: url(./img/펭귄먹이2.png);
 }
 
 #show .item:nth-child(4) {
-    background-image: url(/img/수달먹이.png);
+    background-image: url(./img/수달먹이.png);
 }
 
 #show .info {
@@ -375,19 +375,19 @@ button:nth-child(1) {
 }
 
 #share .item:nth-child(1) {
-    background-image: url(/img/매가오리.png);
+    background-image: url(./img/매가오리.png);
 }
 
 #share .item:nth-child(2) {
-    background-image: url(/img/바다장어.png);
+    background-image: url(./img/바다장어.png);
 }
 
 #share .item:nth-child(3) {
-    background-image: url(/img/샌드타이거.png);
+    background-image: url(./img/샌드타이거.png);
 }
 
 #share .item:nth-child(4) {
-    background-image: url(/img/수달.png);
+    background-image: url(./img/수달.png);
 }
 
 #share .info {
@@ -445,7 +445,7 @@ button:nth-child(1) {
     width: 320px;
     height: 803px;
     /* flex-shrink: 0; */
-    background-image: url(/img/해파리연구소.jpeg);
+    background-image: url(./img/해파리연구소.jpeg);
     background-size: cover;
     margin-bottom: var(--gap-large);
 }
