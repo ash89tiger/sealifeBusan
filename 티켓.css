@@ -111,7 +111,7 @@ container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 1000px; */
+    padding: calc(50vw - 500px);
     height: 80px;
 
     /* border: solid 1px var(--border-color); */
@@ -154,6 +154,10 @@ container {
     height: 80px;
 
     /* border: solid 1px red; */
+}
+
+.menu input {
+    display: none;
 }
 
 .dash {
